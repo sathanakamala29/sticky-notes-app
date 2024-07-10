@@ -1,0 +1,13 @@
+header {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    color: #8a65d3;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header img {
+    width: 40px;
+  }
+  

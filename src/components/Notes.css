@@ -1,0 +1,104 @@
+.note-item {
+    position: relative;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #b3b3b3, -3px -3px 6px #b3b3b3;
+    word-wrap: break-word;
+    overflow: hidden;
+    cursor: default;
+  }
+  
+  .note-item span {
+    font-size: 12px;
+    flex-grow: 1;
+    word-wrap: break-word;
+    overflow-y: auto;
+  }
+  
+  #noteBtns-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #infoBtn,
+  #editBtn,
+  #deleteBtn {
+    background-color: #8c53ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 60px;
+  }
+  
+  #editBtn {
+    background-color: gainsboro;
+  }
+  
+  #deleteBtn {
+    background-color: #d0bbfb;
+  }
+  
+  #deleteBtn:hover {
+    background-color: #8c53ff;
+  }
+  
+  #editBtn:hover {
+    background-color: gray;
+  }
+  
+  #infoBtn:hover {
+    background-color: #5025a7;
+  }
+  
+
+
+  #search-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    height:20px; /* Adjust width as needed */
+    margin-left: auto; /* Pushes input to the right */
+    margin-right: 10px; /* Creates space between input and buttons */
+  }
+ 
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #8c53ff; /* Highlight border color on focus */
+  }
+
+#search-container i {
+    margin-left: 5px;
+    color: #88138e;
+    cursor: pointer;
+}
+
+
+.note-group{
+    margin-bottom:20px;
+}
+
+.group-title{
+    font-size: 25px;
+    margin-bottom:8px;
+    color:#4d4a54;
+    text-align: left;
+}
+
